@@ -26,10 +26,10 @@ ui <- navbarPage(
     strong("Versuch 2"),
     titlePanel(
       h4(
-        "Bestimmung unbekannter WiderstÃ¤nde aus dem VerhÃ¤ltnis der DrahtlÃ¤ngen bei abgeglichener Wheatstonesche BrÃ¼cke"
+        "Bestimmung unbekannter Widerstände aus dem Verhältnis der Drahtlängen bei abgeglichener Wheatstonescher Brücke"
       )
     ),
-    sidebarPanel(
+    sidebarPanel("Drei Wiederholungsmessungen sind ausreichend",
       radioButtons(
         "wolo",
         "",
@@ -165,7 +165,7 @@ ui <- navbarPage(
     strong("Versuch 3"),
     titlePanel(
       h4(
-        "Bestimmung unbekannter WiderstÃ¤nde aus der BrÃ¼ckenspannung bei nahezu abgeglichener Wheatstonesche BrÃ¼cke"
+        "Bestimmung unbekannter Widerstände aus der Brückenspannung bei nahezu abgeglichener Wheatstonescher Brücke"
       )
     ),
     br(),
@@ -174,7 +174,7 @@ ui <- navbarPage(
       "",
       sliderInput(
         inputId = "slider",
-        label = "Verschiedene WiderstÃ¤nde wÃ¤hlen:",
+        label = "Verschiedene Widerstände wählen:",
         min = 0,
         max = 297,
         value = 0,
@@ -188,8 +188,8 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "33Ohm.png",
-                                   height = 786,
-                                   width = 487
+                                   height = 800,
+                                   width = 555
                                  )
                                )))),
     
@@ -198,27 +198,19 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "66Ohm.png",
-                                   height = 764,
-                                   width = 567
-                                 )
-                               )))),
-    
-    mainPanel(conditionalPanel("input.slider=='99'",
-                               
-                               ((
-                                 img(
-                                   src = "99Ohm.png",
-                                   height = 784,
+                                   height = 800,
                                    width = 555
                                  )
                                )))),
     
+  
+    
     mainPanel(conditionalPanel("input.slider=='99'",
                                
                                ((
                                  img(
                                    src = "99Ohm.png",
-                                   height = 784,
+                                   height = 800,
                                    width = 555
                                  )
                                )))),
@@ -228,7 +220,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "132Ohm.png",
-                                   height = 802,
+                                   height = 800,
                                    width = 555
                                  )
                                )))),
@@ -238,8 +230,8 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "165Ohm.png",
-                                   height = 804,
-                                   width = 562
+                                   height = 800,
+                                   width = 555
                                  )
                                )))),
     
@@ -248,8 +240,8 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "198Ohm.png",
-                                   height = 804,
-                                   width = 553
+                                   height = 800,
+                                   width = 555
                                  )
                                )))),
     
@@ -258,7 +250,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "231Ohm.png",
-                                   height = 797,
+                                   height = 800,
                                    width = 555
                                  )
                                )))),
@@ -268,8 +260,8 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "264Ohm.png",
-                                   height = 810,
-                                   width = 562
+                                   height = 800,
+                                   width = 555
                                  )
                                )))),
     
@@ -278,8 +270,8 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "297Ohm.png",
-                                   height = 802,
-                                   width = 560
+                                   height = 800,
+                                   width = 555
                                  )
                                )))),
     
