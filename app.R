@@ -29,7 +29,7 @@ ui <- navbarPage(
         "Bestimmung unbekannter Widerstände aus dem Verhältnis der Drahtlängen bei abgeglichener Wheatstonescher Brücke"
       )
     ),
-    sidebarPanel("Drei Wiederholungsmessungen sind ausreichend",
+    sidebarPanel("Drei Wiederholungsmessungen (A,B,C) sind ausreichend",
       radioButtons(
         "wolo",
         "",
