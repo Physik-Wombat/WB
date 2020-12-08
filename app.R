@@ -11,7 +11,7 @@ ui <- navbarPage(
              )
            ),
            
-           mainPanel(
+           mainPanel("Suchen Sie sich 10 verschiedenen Messwerte aus dem Video heraus!"
              tags$video(
                src = "Versuch1.mp4",
                width = "750px",
