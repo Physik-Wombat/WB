@@ -1,13 +1,13 @@
 library(shiny)
 
 ui <- navbarPage(
-  strong("Wheatstonesche BrÃ¼ckenschaltung"),
+  strong("Wheatstonesche Brückenschaltung"),
   
   #
   tabPanel(strong("Versuch 1"),
            titlePanel(
              h4(
-               "Nachweis, dass sich eine Spannung in der Potentiometerschaltung Ã¼ber die DrahtlÃ¤nge messen lÃ¤sst"
+               "Nachweis, dass sich eine Spannung in der Potentiometerschaltung über die Drahtlänge messen lässt"
              )
            ),
            
