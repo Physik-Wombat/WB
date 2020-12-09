@@ -188,7 +188,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "33Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -198,7 +198,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "66Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -210,7 +210,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "99Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -220,7 +220,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "132Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -230,7 +230,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "165Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -240,7 +240,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "198Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -250,7 +250,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "231Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -260,7 +260,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "264Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
@@ -270,7 +270,7 @@ ui <- navbarPage(
                                ((
                                  img(
                                    src = "297Ohm.png",
-                                   height = 750,
+                                   height = 700,
                                    width = 555
                                  )
                                )))),
