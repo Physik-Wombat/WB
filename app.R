@@ -181,7 +181,7 @@ ui <- navbarPage(
         max = 297,
         value = 0,
         step = 33
-      ) "Vernachlässigen Sie das Minus auf dem Multimeter",
+      ), "Vernachlässigen Sie das Minus auf dem Multimeter"
     ),
     
     
