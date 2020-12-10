@@ -11,7 +11,8 @@ ui <- navbarPage(
              )
            ),
            
-           mainPanel("Suchen Sie sich 10 verschiedenen Messwerte aus dem Video heraus!", "Lesen Sie die Länge an der gelben Markierung des Schiebereglers ab",
+           mainPanel("Suchen Sie sich 10 verschiedene Messwerte aus dem Video heraus!", 
+                     "Lesen Sie die Länge an der gelben Markierung des Schiebereglers ab",
              tags$video(
                src = "Versuch1.mp4",
                width = "750px",
@@ -52,7 +53,7 @@ ui <- navbarPage(
                          "rada", "",
                          c("Messung 2A", "Messung 2B",
                            "Messung 2C")
-                       )),
+                       ))
       
       
       
@@ -274,7 +275,7 @@ ui <- navbarPage(
                                    height = 700,
                                    width = 555
                                  )
-                               )))),
+                               ))))
     
     
     #
