@@ -11,7 +11,7 @@ ui <- navbarPage(
              )
            ),
            
-           mainPanel("Suchen Sie sich 10 verschiedenen Messwerte aus dem Video heraus!",
+           mainPanel("Suchen Sie sich 10 verschiedenen Messwerte aus dem Video heraus!", "Lesen Sie die Länge an der gelben Markierung des Schiebereglers ab"
              tags$video(
                src = "Versuch1.mp4",
                width = "750px",
@@ -166,8 +166,9 @@ ui <- navbarPage(
     titlePanel(
       h4(
         "Bestimmung unbekannter Widerstände aus der Brückenspannung bei nahezu abgeglichener Wheatstonescher Brücke"
+     
       )
-    ),
+    ), "Vernachlässigen Sie das Minus",
     br(),
     
     sidebarPanel(
