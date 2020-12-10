@@ -53,7 +53,7 @@ ui <- navbarPage(
                          "rada", "",
                          c("Messung 2A", "Messung 2B",
                            "Messung 2C")
-                       ))
+                       )),
       
       
       
@@ -275,7 +275,7 @@ ui <- navbarPage(
                                    height = 700,
                                    width = 555
                                  )
-                               ))))
+                               )))),
     
     
     #
