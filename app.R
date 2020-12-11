@@ -176,7 +176,7 @@ ui <- navbarPage(
       "",
       sliderInput(
         inputId = "slider",
-        label = "Verschiedene Widerstände wählen:",
+        label = "Verschiedene Widerstände wählen (Angabe in Ohm):",
         min = 0,
         max = 297,
         value = 0,
